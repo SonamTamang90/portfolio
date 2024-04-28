@@ -8,6 +8,6 @@
 
 @layer base {
   body {
-    @apply flex bg-black h-full;
+    @apply bg-black h-full;
   }
 }
