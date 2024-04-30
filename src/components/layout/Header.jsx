@@ -5,7 +5,7 @@ import { HiMoon } from "react-icons/hi2";
 
 function Header() {
   return (
-    <header className="fixed inset-0 w-full z-50">
+    <header className="fixed top-0 left-0 w-full z-50">
       <Container>
         <div className="flex items-center gap-4 mt-6">
           <div className="flex flex-1">
