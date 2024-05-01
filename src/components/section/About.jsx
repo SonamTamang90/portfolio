@@ -2,7 +2,7 @@ import Container from "../layout/Container";
 
 function About() {
   return (
-    <section>
+    <section id="/about">
       <Container>
         <div className="border-b border-zinc-700/40 py-44">
           <div className="mb-8">
