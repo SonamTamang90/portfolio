@@ -1,17 +1,17 @@
 import GridBackground from "../GridBackground";
 import { FaXTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa6";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function Hero() {
   return (
-    <section>
+    <section id="home">
       <div className="sm:px-8">
         <div className="mx-auto max-w-7xl w-full lg:px-8">
           <div className="border-b border-zinc-700/40">
             <div className="relative w-full h-screen px-4 sm:px-8 lg:px-12">
               <GridBackground />
               <div className="sm:pl-8 lg:pl-12">
-                <div className="max-w-2xl absolute top-2/4 -translate-y-2/4 z-50">
+                <div className="max-w-2xl absolute top-2/4 -translate-y-[40%] z-50">
                   <h1 className="text-6xl font-bold tracking-wider leading-tight text-zinc-100">
                     Designing the future of user experiences.
                   </h1>
@@ -47,12 +47,16 @@ function Hero() {
                   </div>
                   {/*  socials links  */}
                   <div className="mt-11">
-                    <NavLink
-                      to="/work"
-                      className="text-primary/90 transition hover:text-zinc-300 hover:underline"
+                    <Link
+                      to="work"
+                      spy={true}
+                      smooth={true}
+                      offset={-20}
+                      duration={500}
+                      className="text-primary/90 transition hover:text-zinc-300 hover:underline cursor-pointer"
                     >
                       See my work
-                    </NavLink>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -1,64 +1,41 @@
-import { useEffect, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const links = [
   {
     label: "About",
-    href: "/about",
+    href: "about",
   },
   {
     label: "Work",
-    href: "/work",
+    href: "work",
   },
   {
-    label: "Gear",
-    href: "/gear",
-  },
-  {
-    label: "Blogs",
-    href: "/blogs",
+    label: "Experience",
+    href: "experience",
   },
   {
     label: "Contact",
-    href: "/contact",
+    href: "contact",
   },
 ];
 
 function NavLinks() {
-  const [curActiveLink, setCurActiveLink] = useState("");
-  const location = useLocation();
-  console.log(location.pathname);
-
-  function handleActiveLink(link) {
-    setCurActiveLink(link);
-  }
-
-  useEffect(
-    function () {
-      if (location.pathname === "/") {
-        setCurActiveLink("");
-      }
-    },
-    [location]
-  );
-
   return (
     <nav>
       <ul className="flex px-3">
         {links.map((link) => (
           <li key={link.label}>
-            <NavLink
+            <Link
               to={link.href}
-              onClick={() => handleActiveLink(link.href)}
-              className={`relative block text-sm ${
-                curActiveLink === link.href ? "text-primary" : "text-zinc-200"
-              } font-medium p-4 transition hover:text-teal-400`}
+              spy={true}
+              smooth={true}
+              offset={-20}
+              duration={500}
+              className="nav-link relative block text-sm text-zinc-200 font-medium transition hover:text-teal-400 cursor-pointer p-4"
             >
               {link.label}
-              {curActiveLink === link.href && (
-                <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-400/0 via-teal-400/40 to-teal-400/0"></span>
-              )}
-            </NavLink>
+              <span className="opacity-0 transition-opacity absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-400/0 via-teal-400/40 to-teal-400/0"></span>
+            </Link>
           </li>
         ))}
       </ul>

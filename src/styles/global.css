@@ -10,4 +10,12 @@
   body {
     @apply bg-black h-full;
   }
+
+  .nav-link.active {
+    @apply text-primary;
+  }
+
+  .nav-link.active span {
+    @apply opacity-100;
+  }
 }

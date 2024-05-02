@@ -1,7 +1,7 @@
 import Container from "./Container";
 import Logo from "../ui/Logo";
 import NavLinks from "../ui/NavLinks";
-import { HiMoon } from "react-icons/hi2";
+import { FaDownload } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 
 function Header() {
@@ -39,8 +39,9 @@ function Header() {
               <NavLinks />
             </div>
             <div className="flex justify-end md:flex-1">
-              <button className="bg-zinc-800/90 backdrop-blur ring-1 ring-white/10 shadow-lg shadow-zinc-800/5 px-3 py-2 rounded-full transition hover:ring-white/20">
-                <HiMoon className="w-5 h-5 text-zinc-400" />
+              <button className="flex items-center gap-2 bg-zinc-800/90 text-sm text-zinc-400 backdrop-blur ring-1 ring-white/10 shadow-lg shadow-zinc-800/5 px-3 py-2 rounded-full transition hover:ring-white/20">
+                <FaDownload className="w-3 h-3" />
+                <span>Resume</span>
               </button>
             </div>
           </div>

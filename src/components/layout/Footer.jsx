@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="mt-32 flex-none">
+    <footer className="flex-none">
       <div className="sm:px-8">
         <div className="mx-auto w-full max-w-7xl lg:px-8">
           <div className="border-t border-zinc-700/40 pb-16 pt-10">
