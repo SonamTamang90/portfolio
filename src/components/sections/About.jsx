@@ -22,7 +22,7 @@ function About() {
             <div className="lg:pl-20">
               <div className="max-w-xs px-2.5 lg:max-w-none">
                 <img
-                  src="about-pic.png"
+                  src="about-pic.webp"
                   alt="Beautiful sunset towards eveing Western Australia"
                   className="rotate-3 rounded-2xl object-cover bg-zinc-800"
                 />
