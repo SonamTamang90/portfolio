@@ -10,9 +10,9 @@ function Experience() {
             <div className="inline-block bg-primary/25 text-primary rounded-full py-2 px-6 mb-6">
               <h4 className="uppercase font-medium">Experience</h4>
             </div>
-            <h2 className="text-4xl text-zinc-300 font-bold">
+            <h2 className="text-2xl text-zinc-300 font-bold">
               {/* Additional Information about Myself */}
-              Embarking on my professional journey
+              My professional journey
             </h2>
           </div>
           {/* /section heading */}
@@ -58,7 +58,7 @@ function Experience() {
                     <span className="inline-block mr-2">
                       Select Software Pty Ltd ·
                     </span>
-                    <span>Software Developer</span>
+                    <span>QA Analyst</span>
                   </a>
                   <p className="relative z-10 mt-2 text-zinc-400">
                     Worked as a QA Engineer, leading quality assurance
@@ -76,7 +76,7 @@ function Experience() {
             {/* company three and role detail */}
             <div className="md:border-l md:border-zinc-700/40 md:pl-6">
               <div className="grid max-w-4xl grid-cols-1 items-baseline md:grid-cols-4 gap-y-8">
-                <h3 className="text-sm text-zinc-400">Feb 2021 - Oct 2022</h3>
+                <h3 className="text-sm text-zinc-400">May 2014 - May 2015</h3>
                 <div className="md:col-span-3 md:pr-12">
                   <a
                     href="https://www.athang.com/public/w"

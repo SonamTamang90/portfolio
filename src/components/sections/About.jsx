@@ -10,9 +10,9 @@ function About() {
             <div className="inline-block bg-primary/25 text-primary rounded-full py-2 px-6 mb-6">
               <h4 className="uppercase font-medium">About</h4>
             </div>
-            <h2 className="text-4xl text-zinc-300 font-bold">
+            <h2 className="text-2xl text-zinc-300 font-bold">
               {/* Additional Information about Myself */}
-              Further Insights into my background
+              More about my background
             </h2>
           </div>
           {/* /section heading */}
@@ -34,27 +34,29 @@ function About() {
             <div className="lg:order-first lg:row-span-2">
               <div className=" space-y-7 text-base text-zinc-400">
                 <p>
-                  With 5 years of experience in HTML, CSS, and JavaScript, I'm
-                  passionate about bringing creativity to digital projects. As a
-                  dedicated problem-solver, I enjoy tackling challenges and
-                  continuously seek opportunities to grow.
+                  With <strong className="text-zinc-300">seven years</strong> of
+                  experience in HTML, CSS, and JavaScript, I am deeply
+                  passionate about infusing creativity into the digital space. I
+                  possess an insatiable appetite for new challenges and
+                  opportunities for personal and professional growth.
+                </p>
+                <p>
+                  I am proficient in modern web development library like React,
+                  and I combine my technical prowess with a strong understanding
+                  of UI/UX design principles. This enables me to craft visually
+                  appealing and user-friendly websites that resonate with
+                  audiences.
                 </p>
                 <p>
                   When I'm not at my desk, I am probably hiking in nature,
                   playing soccer, and experimenting with cooking.
                 </p>
-                <p>
-                  Proficient in modern web development frameworks like React and
-                  Angular, I combine technical prowess with a strong
-                  understanding of UI/UX design principles. This enables me to
-                  craft visually appealing and user-friendly websites that
-                  resonate with audiences.
-                </p>
-                <p>
+
+                {/* <p>
                   I am excited about the prospect of contributing my skills and
                   expertise to new projects, always eager to push boundaries and
                   exceed expectations.
-                </p>
+                </p> */}
               </div>
             </div>
             {/* /about text */}

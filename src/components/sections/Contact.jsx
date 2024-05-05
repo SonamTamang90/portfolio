@@ -11,9 +11,10 @@ function Contact() {
             <div className="inline-block bg-primary/25 text-primary rounded-full py-2 px-6 mb-6">
               <h3 className="uppercase font-medium">Contact Me</h3>
             </div>
-            <p className="text-base font-medium text-zinc-100 ">
-              Here are the some of things I've build
-            </p>
+            <h2 className="text-2xl text-zinc-300 font-bold">
+              {/* Additional Information about Myself */}
+              Get in touch
+            </h2>
           </div>
           {/* /section heading */}
 

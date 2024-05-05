@@ -28,9 +28,10 @@ function NavLinks() {
             <Link
               to={link.href}
               spy={true}
+              hashSpy={true}
               smooth={true}
               offset={-20}
-              duration={500}
+              duration={1000}
               className="nav-link relative block text-sm text-zinc-200 font-medium transition hover:text-teal-400 cursor-pointer p-4"
             >
               {link.label}

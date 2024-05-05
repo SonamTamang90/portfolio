@@ -10,8 +10,8 @@ function Work() {
             <div className="inline-block bg-primary/25 text-primary rounded-full py-2 px-6 mb-6">
               <h4 className="uppercase font-medium">My Work</h4>
             </div>
-            <h2 className="text-4xl text-zinc-300 font-bold">
-              Here are the some of my featured project
+            <h2 className="text-2xl text-zinc-300 font-bold">
+              Here are some of the things I've built.
             </h2>
           </div>
 
