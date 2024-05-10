@@ -32,13 +32,14 @@ function Experience() {
                     <span className="inline-block mr-2">
                       Selise Digital Platforms ·
                     </span>
-                    <span>UI Engineer</span>
+                    <span>Software Engineer</span>
                   </a>
                   <p className="relative z-10 mt-2 text-zinc-400">
-                    Managed the development, styling, and deployment of
-                    high-quality websites and design systems ensuring
-                    responsiveness and cross-platform compatibility for a
-                    diverse client base.
+                    Engineered innovative websites, design systems, and digital
+                    experiences, delivering exceptional results across diverse
+                    projects and for a variety of clients. Utilized cutting-edge
+                    technologies and methodologies to execute high-quality
+                    solutions that exceed client expectations.
                   </p>
                 </div>
               </div>
@@ -58,13 +59,14 @@ function Experience() {
                     <span className="inline-block mr-2">
                       Select Software Pty Ltd ·
                     </span>
-                    <span>QA Analyst</span>
+                    <span>Software Developer</span>
                   </a>
                   <p className="relative z-10 mt-2 text-zinc-400">
-                    Worked as a QA Engineer, leading quality assurance
-                    initiatives and directly engaging with Select Software
-                    Solutions Pty Ltd(a Multirational Client), a prominent
-                    player in the Telecommunications and Information Technology
+                    Leveraged expertise in C# and VB.NET to develop and
+                    implement SOAP-based web services for telecommunication
+                    companies, specifically focusing on billing solutions.
+                    Utilized PostCSS for testing to ensure robustness and
+                    accuracy.
                     <br />
                     sector.
                   </p>
@@ -87,10 +89,10 @@ function Experience() {
                     <span>Software Developer</span>
                   </a>
                   <p className="relative z-10 mt-2 text-zinc-400">
-                    Collaborated on the design and enhancement of WordPress
-                    themes, employing HTML, CSS, and PHP, to deliver a visually
-                    attractive and mobile-responsive website tailored to the
-                    needs of a local travel agency client.
+                    Spearheaded the design and enhancement of WordPress themes,
+                    employing HTML, CSS, and PHP to deliver visually attractive
+                    and mobile-responsive websites tailored to the needs of a
+                    local travel agency client.
                   </p>
                 </div>
               </div>

@@ -8,15 +8,15 @@ function Hero() {
       <div className="sm:px-8">
         <div className="mx-auto max-w-7xl w-full lg:px-8">
           <div className="border-b border-zinc-700/40">
-            <div className="relative w-full h-screen px-4 sm:px-8 lg:px-12">
+            <div className="relative h-screen w-full px-4 sm:px-8 lg:px-12">
               <GridBackground />
               <div className="sm:pl-8 lg:pl-12">
                 <div className="max-w-2xl absolute top-2/4 -translate-y-[40%] z-50">
-                  <h1 className="text-6xl font-bold tracking-wider leading-tight text-zinc-100">
+                  <h1 className="text-4xl md:text-6xl font-bold tracking-wider leading-tight text-zinc-100">
                     Designing the future of user experiences.
                   </h1>
                   <p className="mt-6 text-base text-zinc-400">
-                    Hi, I’m Sonam Tamang, a front-end developer focused on
+                    Hi, I’m Sonam Tamang, a Software Engineer focused on
                     creating beautiful and user friendly application while
                     writing clean code.
                   </p>

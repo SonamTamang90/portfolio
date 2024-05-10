@@ -12,7 +12,7 @@ function About() {
             </div>
             <h2 className="text-2xl text-zinc-300 font-bold">
               {/* Additional Information about Myself */}
-              More about my background
+              More about me
             </h2>
           </div>
           {/* /section heading */}
@@ -34,29 +34,23 @@ function About() {
             <div className="lg:order-first lg:row-span-2">
               <div className=" space-y-7 text-base text-zinc-400">
                 <p>
-                  With <strong className="text-zinc-300">seven years</strong> of
-                  experience in HTML, CSS, and JavaScript, I am deeply
-                  passionate about infusing creativity into the digital space. I
-                  possess an insatiable appetite for new challenges and
-                  opportunities for personal and professional growth.
+                  I am experienced Bhutanese Software Engineer and building
+                  things for the web for over 7 years and along the way I had
+                  the privelage of working with different software companies
+                  like Athang ICT, Select Software and recent Selise Digitals
+                  Platforms in Bhutan.
                 </p>
                 <p>
-                  I am proficient in modern web development library like React,
-                  and I combine my technical prowess with a strong understanding
-                  of UI/UX design principles. This enables me to craft visually
-                  appealing and user-friendly websites that resonate with
-                  audiences.
+                  During my stay I've built many diffent websites, and digital
+                  products with modern web development tools like HTML, CSS,
+                  Javascript, React, Node js and more, fast forward today I
+                  constantly seeking new chanllenges and working on bringing my
+                  imaginative ideas to life.
                 </p>
                 <p>
                   When I'm not at my desk, I am probably hiking in nature,
                   playing soccer, and experimenting with cooking.
                 </p>
-
-                {/* <p>
-                  I am excited about the prospect of contributing my skills and
-                  expertise to new projects, always eager to push boundaries and
-                  exceed expectations.
-                </p> */}
               </div>
             </div>
             {/* /about text */}
