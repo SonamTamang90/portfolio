@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       # Step 4: Build the React project for production
-      - name: Build React project
+      - name: Build Vite project
         run: npm run build
 
       # Step 5: Deploy files to Hostinger using FTP
@@ -37,5 +37,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
-          local-dir: ./build/ # The directory of your build files
+          local-dir: ./dist/ # The directory of your build files
           server-dir: /public_html/ # The directory on your Hostinger server
