@@ -8,6 +8,9 @@ import Contact from "../components/sections/Contact";
 function Homepage() {
   return (
     <main>
+      <h1 className="text-3xl text-green-400">
+        THIS IS A TEST FOR GITHUB ACTIONS
+      </h1>
       <Hero />
       <About />
       <Work />
