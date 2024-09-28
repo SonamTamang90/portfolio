@@ -1,138 +1,99 @@
-import { Link } from "react-router-dom";
 import Container from "../layout/Container";
-
 function Work() {
   return (
-    <section id="work">
+    <section id="work" className="py-11">
       <Container>
-        <div className="border-b border-zinc-700/40 pt-32 pb-20">
-          <div className="mb-16">
-            <div className="inline-block bg-primary/25 text-primary rounded-full py-2 px-6 mb-6">
-              <h4 className="uppercase font-medium">My Work</h4>
-            </div>
-            <h2 className="text-2xl text-zinc-300 font-bold">
-              Things I've built.
-            </h2>
+        <div className="mb-16">
+          <div className="inline-block bg-primary/25 text-primary rounded-full py-2 px-6 mb-6">
+            <h4 className="uppercase font-medium">My Work</h4>
           </div>
-          {/* Projects showcase lists */}
-          <div className="space-y-8">
-            {/* Project One */}
-            <div className="cursor-pointer hover:bg-zinc-800/50 rounded-lg p-6 transition-all border border-transparent hover:border hover:border-zinc-700/50">
-              <div className="grid grid-cols-1 md:grid-cols-8 gap-y-8 md:gap-11">
-                <div className="md:col-span-3">
-                  <img
-                    src="./astroshop-ss.png"
-                    alt="project one"
-                    className="w-full"
-                  />
-                </div>
-
-                <div className="md:col-start-4 md:col-end-9 md:pr-12">
-                  <a
-                    href="https://selisegroup.com/"
-                    target="_blank"
-                    className="flex items-center text-base font-semibold tracking-tight text-zinc-300 transition hover:text-primary cursor-pointer"
-                  >
-                    <span className="inline-block mr-2">
-                      Selise Digital Platforms ·
-                    </span>
-                    <span>Software Engineer</span>
-                  </a>
-                  <p className="relative z-10 mt-2 text-zinc-400 mb-4">
-                    Engineered innovative websites, design systems, and digital
-                    experiences, delivering exceptional results across diverse
-                    projects and for a variety of clients.
-                  </p>
-                  <div className="flex gap-6 text-sm">
-                    <p className="text-primary">Tailwind</p>
-                    <p className="text-primary">React</p>
-                    <p className="text-primary">Redux</p>
-                    <p className="text-primary">Supabase</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* /Project One */}
-            {/* Project Two */}
-            <div className="cursor-pointer hover:bg-zinc-800/50 rounded-lg p-6 transition-all border border-transparent hover:border hover:border-zinc-700/50">
-              <div className="grid grid-cols-1 md:grid-cols-8 gap-y-8  md:gap-11">
-                <div className="md:col-span-3">
-                  <img
-                    src="./modular-ss.png"
-                    alt="project one"
-                    className="w-full"
-                  />
-                </div>
-
-                <div className="md:col-start-4 md:col-end-9 md:pr-12">
-                  <a
-                    href="https://selisegroup.com/"
-                    target="_blank"
-                    className="flex items-center text-base font-semibold tracking-tight text-zinc-300 transition hover:text-primary cursor-pointer"
-                  >
-                    <span className="inline-block mr-2">
-                      Selise Digital Platforms ·
-                    </span>
-                    <span>Software Engineer</span>
-                  </a>
-                  <p className="relative z-10 mt-2 text-zinc-400 mb-4">
-                    Engineered innovative websites, design systems, and digital
-                    experiences, delivering exceptional results across diverse
-                    projects and for a variety of clients.
-                  </p>
-                  <div className="flex gap-6 text-sm">
-                    <p className="text-primary">Html</p>
-                    <p className="text-primary">Scss</p>
-                    <p className="text-primary">Javascript</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* /Project Two */}
-
-            {/* Project Three */}
-            <div className="cursor-pointer hover:bg-zinc-800/50 rounded-lg p-6 transition-all border border-transparent hover:border hover:border-zinc-700/50">
-              <div className="grid grid-cols-1 md:grid-cols-8 gap-y-8 md:gap-11">
-                <div className="md:col-span-3">
-                  <img
-                    src="./sketch-ss.png"
-                    alt="project three"
-                    className="w-full"
-                  />
-                </div>
-
-                <div className="md:col-start-4 md:col-end-9 md:pr-12">
-                  <a
-                    href="https://selisegroup.com/"
-                    target="_blank"
-                    className="flex items-center text-base font-semibold tracking-tight text-zinc-300 transition hover:text-primary cursor-pointer"
-                  >
-                    <span className="inline-block mr-2">
-                      Selise Digital Platforms ·
-                    </span>
-                    <span>Software Engineer</span>
-                  </a>
-                  <p className="relative z-10 mt-2 text-zinc-400 mb-4">
-                    Engineered innovative websites, design systems, and digital
-                    experiences, delivering exceptional results across diverse
-                    projects and for a variety of clients.
-                  </p>
-                  <div className="flex gap-6 text-sm">
-                    <p className="text-primary">Tailwind</p>
-                    <p className="text-primary">React</p>
-                    <p className="text-primary">Redux</p>
-                    <p className="text-primary">Supabase</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* /Project Three */}
-          </div>
-          {/* <Link className="inline-block text-zinc-300 transition 0 hover:underline mt-20">
-            View all my work
-          </Link> */}
+          <h2 className="text-2xl text-zinc-300 font-bold">Selected Work</h2>
         </div>
       </Container>
+      <div className="sm:px-8">
+        <div className="w-full max-w-7xl mx-auto lg:px-8">
+          <div className="slider">
+            <ul className="slider-container">
+              <li className="slider-item">
+                <div
+                  className="portfolio-card img-holder"
+                  style={{ width: "366px", height: "366px" }}
+                >
+                  <img
+                    src="./portfolio-1.jpg"
+                    alt="portfolio"
+                    loading="lazy"
+                    className="img-cover"
+                    style={{ width: "366px", height: "366px" }}
+                  />
+
+                  <div className="card-content">
+                    <h3 className="card-title">Lab. 001</h3>
+                    <p className="card-text">Website Design</p>
+                  </div>
+                </div>
+              </li>
+              <li className="slider-item">
+                <div
+                  className="portfolio-card img-holder"
+                  style={{ width: "366px", height: "366px" }}
+                >
+                  <img
+                    src="./portfolio-2.jpg"
+                    alt="portfolio"
+                    loading="lazy"
+                    className="img-cover"
+                    style={{ width: "366px", height: "366px" }}
+                  />
+
+                  <div className="card-content">
+                    <h3 className="card-title">Lab. 001</h3>
+                    <p className="card-text">Website Design</p>
+                  </div>
+                </div>
+              </li>
+              <li className="slider-item">
+                <div
+                  className="portfolio-card img-holder"
+                  style={{ width: "366px", height: "366px" }}
+                >
+                  <img
+                    src="./portfolio-3.jpg"
+                    alt="portfolio"
+                    loading="lazy"
+                    className="img-cover"
+                    style={{ width: "366px", height: "366px" }}
+                  />
+
+                  <div className="card-content">
+                    <h3 className="card-title">Lab. 001</h3>
+                    <p className="card-text">Website Design</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div className="slider-controls">
+              <button
+                className="slider-control prev"
+                data-slider-prev
+                aria-label="Slide to previous item"
+              >
+                <div className="line"></div>
+                <div className="arrow"></div>
+              </button>
+
+              <button
+                className="slider-control next"
+                data-slider-next
+                aria-label="Slide to next item"
+              >
+                <div className="line"></div>
+                <div className="arrow"></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

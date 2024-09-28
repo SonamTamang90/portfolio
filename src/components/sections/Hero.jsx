@@ -15,7 +15,7 @@ function Hero() {
                   <h1 className="text-4xl md:text-6xl font-bold tracking-wider leading-tight text-zinc-100">
                     Designing the future of user experiences.
                   </h1>
-                  <p className="mt-6 text-base text-zinc-400">
+                  <p className="mt-6 text-sm text-zinc-400 tracking-wider">
                     Hi, I’m Sonam Tamang, a Software Engineer focused on
                     creating beautiful and user friendly application while
                     writing clean code.
