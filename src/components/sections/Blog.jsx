@@ -8,11 +8,9 @@ function Blog() {
         <div className="border-b border-zinc-700/40 pt-32 pb-20">
           <div className="mb-11">
             <div className="inline-block bg-primary/25 text-primary rounded-full py-2 px-6 mb-6">
-              <h4 className="uppercase font-medium">Articles</h4>
+              <h4 className="uppercase font-medium">Blogs</h4>
             </div>
-            <h2 className="text-2xl text-zinc-300 font-bold">
-              Writing a articles makes me more confident
-            </h2>
+            <h2 className="text-2xl text-zinc-300 font-bold">Articles</h2>
           </div>
           <div className="grid grid-cols-3 gap-5">
             <div className="">

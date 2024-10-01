@@ -1,3 +1,5 @@
+import { transform } from "framer-motion";
+
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
@@ -21,6 +23,21 @@ export default {
       },
       gridTemplateRows: {
         auto_1fr: "auto 1fr",
+      },
+
+      keyframes: {
+        marquee: {
+          from: {
+            transform: "translateX(0%)",
+          },
+          to: {
+            transform: "translateX(-100%)",
+          },
+        },
+      },
+
+      animation: {
+        marquee: "marquee 15s linear infinite",
       },
     },
   },

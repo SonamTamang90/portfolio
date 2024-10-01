@@ -12,7 +12,7 @@ function Experience() {
             </div>
             <h2 className="text-2xl text-zinc-300 font-bold">
               {/* Additional Information about Myself */}
-              My professional journey
+              Working Period
             </h2>
           </div>
           {/* /section heading */}
