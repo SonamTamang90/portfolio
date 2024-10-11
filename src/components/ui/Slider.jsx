@@ -42,7 +42,7 @@ function Slider() {
       <SwiperSlide>
         <div className="relative bg-transparent transition-all duration-700 ease-in-out group cursor-pointer">
           <img
-            src="./portfolio-1.jpg"
+            src="./portfolio-1.png"
             alt=""
             className="group-hover:opacity-[0.1] group-hover:scale-[0.95] transform transition-all duration-700 ease-in-out"
           />

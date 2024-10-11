@@ -1,4 +1,3 @@
-import { SiKia } from "react-icons/si";
 import Container from "../layout/Container";
 import {
   FaHtml5,
@@ -48,7 +47,7 @@ function Skills() {
   return (
     <section id="skills">
       <Container>
-        <div className="py-32">
+        <div className="pt-32 pb-11">
           {/* section heading */}
           <div className="mb-16">
             <div className="inline-block bg-primary/25 text-primary rounded-full py-2 px-6 mb-6">
