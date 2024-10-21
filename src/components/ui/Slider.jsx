@@ -48,7 +48,7 @@ function Slider() {
           />
           <div className="absolute top-2/4 left-2/4 text-center w-full transform -translate-x-[55%] -translate-y-2/4 opacity-0 transition-all duration-700 ease-in-out z-10 group-hover:-translate-x-2/4 group-hover:-translate-y-2/4 group-hover:opacity-100">
             <h3 className=" text-white text-xl font-semibold tracking-wider mb-2">
-              Trendix Store
+              Drukwear
             </h3>
             <p className="text-white/80 text-sm px-11">
               Ecommerce website build using react, react query, tailwind, shadcn
