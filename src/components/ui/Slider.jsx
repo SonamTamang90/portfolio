@@ -42,7 +42,7 @@ function Slider() {
       <SwiperSlide>
         <div className="relative bg-transparent transition-all duration-700 ease-in-out group cursor-pointer">
           <img
-            src="./portfolio-1.png"
+            src="./portfolio-3.png"
             alt=""
             className="group-hover:opacity-[0.1] group-hover:scale-[0.95] transform transition-all duration-700 ease-in-out"
           />
@@ -51,7 +51,8 @@ function Slider() {
               Trendix Store
             </h3>
             <p className="text-white/80 text-sm px-11">
-              Ecommerce store promoting made in Bhutan clothing brands
+              Ecommerce website build using react, react query, tailwind, shadcn
+              ui and supabase.
             </p>
           </div>
         </div>
